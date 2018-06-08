@@ -1,0 +1,97 @@
+.container {
+	margin-top:50px;
+}
+#icon {
+	height: 150px;
+	padding: 10px;
+}
+
+#iconp {
+	height: 280px;
+	padding: 0px 10px 10px 0px;
+	margin: 0px 10px 10px 0px;
+}
+.jumbotron {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+h5 {
+	margin-top: 10px;
+}
+
+.img-fluid {
+	padding: 20px;
+}
+
+.navbar {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.va-bottom {
+	vertical-align: bottom;
+}
+
+.first-item {
+	background: lightgray;
+}
+
+.list-group-item {
+	font-size: small;
+	padding: 2px 10px;
+}
+
+li {
+	font-size: small;
+}
+
+.chgHeader {
+	text-align: left;
+}
+
+.jumbotron {
+	background: #343A40;
+	color: #CCCECF;
+	text-align: center;
+}
+
+.big-margin {
+	margin-top: 140px;
+
+}
+
+.border1 {
+	border: 1px solid red;
+	padding: 2px;
+	color: red;
+}
+.border2 {
+	border: 1px solid green;
+	padding: 2px;
+}
+.border3 {
+	border: 1px solid blue;
+	padding: 2px 20px;
+}
+.border4 {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+@media (max-width: 991px) {
+	#iconp {
+		height: 250px;
+		padding: 0px 10px 10px 0px;
+		margin: 0px 10px 10px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.chgHeader {
+		text-align: center;
+	}
+}
+
+
+
